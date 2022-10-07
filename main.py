@@ -44,14 +44,7 @@ def welcome():
  
 def photo():
     
-    #img_data = st.file_uploader(label='Drag and Drop Image',type =['png','jpg'])
-    
-    #if img_data is not None :
-        
-        #display image
-        #uploaded_image = Image.open(img_data)
-        #st.image(uploaded_image)
-
+   
         
         
 
@@ -90,8 +83,7 @@ def photo():
 
     colorized = (255 * colorized).astype("uint8")
 
-    #cv2.imshow("Original",image1)
-    #cv2.imshow("Colorized",colorized)
+   
     st.image(colorized)
 
     cv2.waitKey(0)
