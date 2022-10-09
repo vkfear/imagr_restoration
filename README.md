@@ -1,3 +1,5 @@
 # Image_Restoration
-pip3 install opencv-contrib-python
-pip3 install numpy
+pip3 install -r requirements.txt
+
+
+change image name in line 17 of b2w.py and run
